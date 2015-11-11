@@ -1,0 +1,14 @@
+Package: CensusAPITools
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1
+Date: 2015-11-11
+Author: Ruby Fore
+Maintainer: Ruby Fore <ruby.a.fore@gmail.com>
+Depends: R (>= 3.1.0)
+Imports:  jsonlite,
+          sp,
+          stringr
+Description: Contains functions that interact with the Census API by creating API URL calls, dowloading the data using jsonlite and binding it to a spatial polygons dataframe (such as those available in the tigris package) to enable mapping.
+License: GPL-2
+LazyData: TRUE
